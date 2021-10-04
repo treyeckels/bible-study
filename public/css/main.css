@@ -29,12 +29,14 @@ h1 span {
   color: #ffde59;
 }
 
+footer {
+  color: white;
+}
+
 .bg-light {
   background-color: #5a3314 !important;
 }
 
-element.style {
-}
 .btn-primary:hover {
   color: #fff;
   background-color: #0b5ed7;
@@ -90,7 +92,7 @@ a:hover {
 .entity-lockup {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .entity-lockup img {
@@ -103,6 +105,10 @@ a:hover {
 .entity-lockup p {
   line-height: 1.2;
   margin-bottom: 0;
+}
+
+.comment-container {
+  border-bottom: 1px dashed #a0a0a0;
 }
 
 @media (min-width: 800px) {
@@ -154,4 +160,10 @@ a:hover {
     z-index: 2;
     width: 100%;
   }
+}
+
+.comments-heading {
+  font-weight: bold;
+  padding: 0;
+  border-bottom: 1px solid #212529;
 }
