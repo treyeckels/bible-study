@@ -33,6 +33,35 @@ h1 span {
   background-color: #5a3314 !important;
 }
 
+element.style {
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+.btn:hover {
+  color: #212529;
+}
+a:hover {
+  color: #0a58ca;
+}
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #3a3d41;
+  border-color: #212529;
+}
+
 .bg-gray-100 {
   background: #f8f9fa !important;
   border-bottom: 1px solid #ebebec;
@@ -56,6 +85,24 @@ h1 span {
 .img-rounded img {
   width: 50%;
   border-radius: 100%;
+}
+
+.entity-lockup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entity-lockup img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.entity-lockup p {
+  line-height: 1.2;
+  margin-bottom: 0;
 }
 
 @media (min-width: 800px) {
